@@ -1,0 +1,221 @@
+$theme-colors: (
+  "purple": #ab00c1,
+  "darkPurple" :#4d0084,
+);
+
+.NavigationBar{
+  z-index: 10;
+}
+
+.navoptions{
+  font-weight: bold;
+  margin: 3px 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.hyp{
+  color :#282c34;
+  font-weight: bold;
+  margin: 5px 15px;
+  font-size: 2.5vw;
+}
+.hyp:hover{
+  color :#492d68;
+  text-decoration: none;
+}
+
+.universal{
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 100vh;
+}
+
+.navbarright{
+  text-align: right;
+}
+
+.brandLogo{
+  margin: 0px 5px;
+  line-height: 3vw;
+}
+
+.brandText{
+  color :#282c34;
+  margin-left: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  font-size: 3vw;  
+}
+.option{
+  text-align: right;
+}
+.loggedInText{
+  color :#282c34;
+  margin-left: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  font-size: 32px;  
+}
+.welcomeText{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  
+}
+.welcomeText .title{
+  font-weight: bold;
+  font-size: 8.5vw;
+}
+
+.welcomeText .sub-title{
+  font-weight: 400;
+  font-size: 3.5vw;
+}
+
+.defaultButton {
+  margin : 25px 10px;
+}
+.defaultButton .text{
+  font-size: 19px;
+  margin : 10px ;
+  margin-left : 30px;
+  margin-right : 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.userForm{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.userForm .formTitle{
+  color : #ab00c1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5vw;
+}
+.subtitle{
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+.searchResltsTitle {
+  font-size: 32px;
+  color: white;
+}
+
+.popoverBody{
+  height: 25vw;
+  overflow: auto;
+  
+}
+
+.searchField{
+  width: 200%;
+}
+.searchScreen {
+  position: absolute;
+  background-color: #282c34;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  justify-content: center;
+}
+
+.searchScreen .title{
+  margin-top: 60px;
+  color : #ab00c1;
+  font-weight: bold;
+  font-size: 4vw;
+  text-align: center;
+}
+
+
+.searchScreen .search{
+  width: 100%;
+}
+
+.playlistScreen{
+  z-index: 4;
+  color:white;
+  
+}
+
+.playlists{
+  text-align: center
+}
+
+.playlistOptions{
+  margin-right: 5px;
+}
+
+.lowerButtons{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.icons{
+  height : 35px;
+  margin: 5px;
+}
+
+.navbarusername{
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0px 5px;
+}
+.navbarname{
+  font-weight: 300;
+  font-size: 16px;
+  margin: 2px 5px;
+}
+
+.playlistName{
+  font-size :22px;
+  color : #840084;
+  font-weight: 300;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.playlistName:hover {
+  color: #5a0096;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.songName {
+  margin-left: 10px;
+  font-size :15px;
+  color : #840084;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.songName:hover {
+  color: #a14cbb;
+  font-weight: 470;
+  text-decoration: none;
+}
+
+.listOfSongs{
+  margin-bottom: 8px;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+

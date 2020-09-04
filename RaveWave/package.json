@@ -23,7 +23,7 @@
     "express": "^4.16.4",
     "file-saver": "^2.0.1",
     "mongoose": "^5.4.16",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
